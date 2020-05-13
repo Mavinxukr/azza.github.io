@@ -1,0 +1,80 @@
+.pace {
+    pointer-events: none;
+    user-select: none;
+    z-index: 2000;
+    position: fixed;
+    margin: auto;
+    top: 210px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    border: 0;
+    height: 5px;
+    overflow: hidden;
+    background:#fff;
+}
+
+.pace .pace-progress {
+    box-sizing: border-box;
+    transform: translate3d(0, 0, 0);
+    max-width: 300px;
+    z-index: 2000;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    height: 100%;
+    width: 100%;
+    background: #F6D119;
+}
+
+.pace.pace-inactive {
+    display: none;
+}
+
+#preloader{
+    width:100%;
+    height:100vh;
+    background:#fff;
+    overflow:hidden;
+    position:fixed;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    z-index: 200;
+    top: 0;
+}
+
+.p {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 201;
+}
+
+.p img {
+    max-width: 300px;
+}
+
+@media screen and (max-width: 1600px) {
+    .pace {
+        top: 240px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pace .pace-progress {
+        max-width: 230px;
+    }
+
+    .p img,
+    .pace {
+        width: 230px;
+    }
+
+    .pace {
+        top: 65%;
+        transform: translateY(-50%);
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,296 @@
+@media screen and (max-width: 1364px) {
+    .careerBannerInfo {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .searchMap {
+        max-width: 100%;
+        width: 96%;
+        margin: auto;
+    }
+
+    .searchMap .relative {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .column {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    .column {
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .careerBannerInfo {
+        max-width: 550px;
+    }
+
+    .footer > .flex a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footerLogo {
+        margin: auto;
+    }
+
+    .footer > .flex {
+        justify-content: center;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .copyrightMob {
+        display: block;
+        text-align: center;
+    }
+
+    .footerFlex {
+        align-items: baseline;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footerTitle {
+        text-align: center;
+    }
+
+    .footer > .flex div + div .flex {
+        justify-content: center;
+    }
+
+    .footer > .flex div + div > .flex {
+        margin-top: 40px;
+    }
+
+    .footer > .flex div + div > .flex + .flex {
+        margin-top: 0;
+    }
+
+    .footerWidthText {
+        max-width: 213px;
+    }
+
+    .footer {
+        padding: 50px 30px 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #mapMob,
+    .flexItemCarousel,
+    .carouselBottom {
+        display: block;
+    }
+
+    .careerBannerText {
+        margin: 0 37px;
+    }
+    .fs-40 {
+        font-size: 26px;
+    }
+
+    .careerBannerInfo {
+        max-width: 100%;
+        padding: 89px 0 50px;
+        top: 74px;
+        transform: translate(-50%);
+        background-image: url("../images/Rectangle.png");
+        background-size: cover;
+    }
+
+    .careerBG {
+        margin-top: 470px;
+    }
+
+    .flexCareerItem {
+        max-width: 100%;
+    }
+
+    .advantage .advantageTitle {
+        font-size: 20px;
+        text-align: left;
+        max-width: 53%;
+        margin-bottom: 60px;
+    }
+
+    .mt-50 {
+        margin-bottom: 50px;
+    }
+
+    .advantageItem {
+        margin-bottom: 40px;
+    }
+
+    .advantage h2 {
+        flex-wrap: nowrap;
+    }
+
+    .img5 {
+        width: 72px;
+    }
+
+    .careerItemText {
+        max-width: 240px;
+    }
+
+    .activeMenu > .flex {
+        justify-content: space-between;
+    }
+
+    .activeMenu > .flex span {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #F6D119;
+        color: #4B2613;
+    }
+
+    .w-17,
+    .w-33 {
+        width: 250px!important;
+    }
+
+    .menuLogo {
+        margin: 0;
+    }
+
+    .btnMenu,
+    .headerLang{
+        background: #F6D119;
+        border: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .btnMenu.close img {
+        width: 16px;
+        object-fit: contain;
+    }
+
+    .btnMenu svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 22px;
+    }
+
+    .header .flex + .flex {
+        display: none;
+    }
+
+    .header .flex {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #map,
+    .descBlock {
+        display: none;
+    }
+
+    .searchMap {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .newItem {
+        width: 49%;
+    }
+
+    .newItem:nth-child(odd) {
+        margin-left: 0;
+        margin-right: 3px;
+    }
+
+    .newItem:nth-child(even) {
+        margin-right: 0;
+        margin-left: 3px;
+    }
+
+    .newItemBlock {
+        justify-content: space-between;
+    }
+
+    .footerFlex {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerStore {
+        width: 136px;
+    }
+
+    .footerStore + .footerStore {
+        margin-right: 0;
+    }
+
+    .footerWidthText {
+        max-width: 192px;
+    }
+
+    .imgAzza {
+        margin-right: 8px;
+    }
+
+    .flexItem {
+        background-size: contain;
+    }
+
+    .bannerTitle {
+        background: rgba(75, 38, 19, 0.01);
+        backdrop-filter: blur(30px);
+        padding: 30px;
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .bannerTitle {
+        width: 263px;
+        padding: 15px;
+    }
+
+    .careerBG {
+        margin-top: 535px;
+    }
+
+    .menu {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    .footerStore {
+        width: 125px;
+    }
+
+    .careerBG {
+        margin-top: 642px;
+    }
+}
