@@ -102,6 +102,7 @@ body {
 button {
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 
 a:hover, button:hover {
@@ -235,7 +236,9 @@ span.uppercase {
 }
 
 .sticky-header svg line,
-.sticky-header svg path{
+.sticky-header svg path,
+.mobSoc svg line,
+.mobSoc svg path {
     fill: #4B2613;
     stroke: #4B2613;
 }
@@ -599,6 +602,13 @@ span.uppercase {
     border: 1px solid #F6D119;
     padding: 10px 31px;
     letter-spacing: 0.2em;
+    transition: all .3s;
+}
+
+.btnQuestion:hover {
+    background: #F6D119;
+    color:#4B2613;
+    transition: all .3s;
 }
 
 .careerBG {
@@ -652,6 +662,14 @@ span.uppercase {
     padding: 10px 20px;
     background: #F6D119;
     margin: 20px auto 0;
+    color: #4B2613;
+    transition: all .3s;
+}
+
+.btnQuestionnaire:hover {
+    transition: all .3s;
+    color: #F6D119;
+    background: #4B2613;
 }
 
 .careerItemText {
@@ -817,13 +835,18 @@ span.uppercase {
 }
 
 .label {
-    min-width: 360px;
+    min-width: 320px;
+    max-width: 320px;
+    margin-right: 50px;
+    font-weight: bold;
 }
 
-.input {
+.input,
+.input option{
     width: 100%;
     border: 1px solid #E0E0E0;
     padding: 9.5px 10px;
+    color: #4F4F4F;
 }
 
 .input:focus {
@@ -852,7 +875,8 @@ input[type='file'].input {
 #mapMob,
 .copyrightMob,
 .flexItemCarousel,
-.carouselBottom {
+.carouselBottom,
+.mobSoc {
     display: none;
 }
 
@@ -999,12 +1023,112 @@ select {
     text-align: right;
 }
 
+.langInput {
+    margin-right: 10px;
+}
+
 .btn-more {
-    border: 1px solid #F6D119;
+    border: 1px solid #E0E0E0;
     padding: 8px 19px;
+}
+
+.btn-more:focus {
+    border: 1px solid #F6D119;
 }
 
 .btn-more img {
     width: 14px;
     height: 14px;
+}
+
+.input option:first-child{ color: #BDBDBD; }
+
+.selectBlock {
+    align-items: baseline;
+}
+
+.selectBlock .langInput {
+    min-width: 218px;
+}
+
+.moreSelect {
+    margin-top: 10px;
+    align-items: inherit!important;
+    position: relative;
+    min-height: 48px;
+}
+
+.moreSelect .btn-more {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+}
+
+.btn-more .minusImg {
+    height: auto;
+}
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 1.95em;
+    cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #E0E0E0;
+    background: #fff;
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    background-image: url("../images/checked.png");
+    width: 15px;
+    height: 10px;
+    transition: all .2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* checked mark aspect changes */
+
+[type="checkbox"]:checked + label:before {
+    border: 1px solid #F6D119;
+}
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.submitForm {
+    border: none;
+    background: #F6D119;
+    color: #4B2613;
+    padding: 20px 30px;
+    letter-spacing: 0.1em;
+    margin-bottom: 100px;
+}
+
+.mobRow {
+    align-items: baseline;
 }
