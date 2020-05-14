@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/letter/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/career/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/career/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/DarkLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Group1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Pay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Store.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/banner.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questionnaire/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questionnaire/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -47,7 +47,12 @@
       <workItem from="1589350614680" duration="4977000" />
       <workItem from="1589356644782" duration="12000" />
       <workItem from="1589371166726" duration="8921000" />
-      <workItem from="1589433277076" duration="1820000" />
+      <workItem from="1589433277076" duration="2998000" />
+      <workItem from="1589437913580" duration="16000" />
+      <workItem from="1589440028483" duration="719000" />
+      <workItem from="1589441857647" duration="4531000" />
+      <workItem from="1589447672966" duration="4010000" />
+      <workItem from="1589453659142" duration="926000" />
     </task>
     <servers />
   </component>
@@ -55,13 +60,17 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589356653519">
+    <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589435056454">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589356653519" />
-    <state x="524" y="201" width="618" height="548" key="find.popup" timestamp="1589433914960">
+    <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589435056454" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589437927273">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="524" y="201" width="618" height="548" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589433914960" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589437927273" />
+    <state x="524" y="201" width="618" height="580" key="find.popup" timestamp="1589454316274">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="524" y="201" width="618" height="580" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589454316274" />
   </component>
 </project>

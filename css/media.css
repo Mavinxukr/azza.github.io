@@ -185,8 +185,33 @@
     #mapMob,
     .flexItemCarousel,
     .carouselBottom,
-    .mobSoc {
+    .mobSoc,
+    .mobImg {
         display: block;
+    }
+
+    .careerBG {
+        overflow: hidden;
+        height: auto;
+    }
+
+    .careerBannerInfo {
+        max-width: 100%;
+        padding: 89px 0 50px;
+        left: 0;
+        top: 0;
+        transform: translate(0);
+        background-image: url("../images/Rectangle.png");
+        background-size: cover;
+        position: relative;
+    }
+
+    .advantageItem {
+        max-width: 100%;
+    }
+
+    .flex {
+        flex-wrap: wrap;
     }
 
     .inputBlock .no-wrap.moreSelect {
@@ -198,6 +223,14 @@
         position: absolute;
         bottom: 10px;
         right: 0;
+    }
+
+    .banner .link {
+        display: none;
+    }
+
+    .mobWidthSVG {
+        width: 276px;
     }
 
     .langInput {
@@ -216,19 +249,6 @@
     }
     .fs-40 {
         font-size: 26px;
-    }
-
-    .careerBannerInfo {
-        max-width: 100%;
-        padding: 89px 0 50px;
-        top: 74px;
-        transform: translate(-50%);
-        background-image: url("../images/Rectangle.png");
-        background-size: cover;
-    }
-
-    .careerBG {
-        margin-top: 470px;
     }
 
     .flexCareerItem {
@@ -388,14 +408,21 @@
     }
 }
 
+@media screen and (max-width: 389px) {
+    .mobImg {
+        width: 600px;
+        height: 500px;
+        text-align: center;
+        left: -50%;
+        object-fit: cover;
+        margin-left: -211px;
+    }
+}
+
 @media screen and (max-width: 460px) {
     .bannerTitle {
         width: 263px;
         padding: 15px;
-    }
-
-    .careerBG {
-        margin-top: 535px;
     }
 
     .menu {
@@ -406,9 +433,5 @@
 @media screen and (max-width: 352px) {
     .footerStore {
         width: 125px;
-    }
-
-    .careerBG {
-        margin-top: 642px;
     }
 }
