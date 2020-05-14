@@ -132,7 +132,7 @@
         left: 20px;
         top: 124px;
         background-position: center;
-        background-image: url("../images/Arrow.png");
+        background-image: url("../images/Arrow.webp");
         background-size: auto;
         background-repeat: no-repeat;
         padding: 0;
@@ -219,6 +219,12 @@
     }
 }
 
+@media screen and (max-width: 990px) and (min-width: 768px) {
+    .careerItemText {
+        max-width: 200px;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     #mapMob,
@@ -242,15 +248,21 @@
         justify-content: space-between;
     }
 
-    .careerBannerInfo {
+    .containerBannerInfo {
         max-width: 100%;
         padding: 89px 0 50px;
         left: 0;
         top: 0;
         transform: translate(0);
-        background-image: url("../images/Rectangle.png");
+        background-image: url("../images/Rectangle.webp");
         background-size: cover;
         position: relative;
+    }
+
+    .careerBannerInfo {
+        padding: 0;
+        background: none;
+        margin: auto;
     }
 
     .advantageItem {

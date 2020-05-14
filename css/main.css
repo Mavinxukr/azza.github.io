@@ -602,7 +602,7 @@ img {
     height: 100vh;
 }
 
-.careerBannerInfo {
+.containerBannerInfo {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -611,7 +611,11 @@ img {
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(30px);
     max-width: 67%;
-    padding: 100px;
+    padding: 40px;
+}
+
+.careerBannerInfo {
+    padding: 60px;
     background-image: url("../images/CareerInfoBG.webp");
 }
 
