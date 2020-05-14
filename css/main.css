@@ -303,10 +303,6 @@ span.uppercase {
     text-align: center;
 }
 
-.bannerLogo {
-    max-width: 170px;
-}
-
 .bannerTitle .textUppercase {
     text-transform: uppercase;
     color: #fff;
@@ -548,7 +544,7 @@ span.uppercase {
 
 .footerLogo {
     width: 35px;
-    margin-right: 30px;
+    margin-right: 14px;
 }
 
 .footerLogoHeight {

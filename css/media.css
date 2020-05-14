@@ -360,6 +360,10 @@
         width: 136px;
     }
 
+    .footerStore svg {
+        width: auto;
+    }
+
     .footerStore + .footerStore {
         margin-right: 0;
     }
