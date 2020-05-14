@@ -90,6 +90,14 @@
 }
 
 @media screen and (max-width: 991px) {
+    .advantage h2 {
+        margin: 0 40px;
+    }
+
+    .container {
+        margin: 0;
+    }
+
     .prevPage {
         width: 50px;
         height: 50px;
@@ -258,7 +266,6 @@
     .advantage .advantageTitle {
         font-size: 20px;
         text-align: left;
-        max-width: 53%;
         margin-bottom: 60px;
     }
 
@@ -275,6 +282,7 @@
     }
 
     .img5 {
+        min-width: 72px;
         width: 72px;
     }
 

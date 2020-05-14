@@ -135,6 +135,7 @@ img {
 }
 .flexItem span.uppercase  {
     font-size: 1.15em;
+    font-weight: 600;
 }
 
 .relative {
@@ -291,7 +292,7 @@ img {
     text-transform: uppercase;
     color: #fff;
     font-family: montserrat, sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     max-width: 368px;
     line-height: 17px;
 }
@@ -362,6 +363,7 @@ img {
 .btnSearch {
     position: absolute;
     top: 0;
+    height: 50px;
     right: 0;
     background: #F6D119;
     border-radius: 4px;
@@ -376,7 +378,7 @@ img {
     padding: 56px 50px 76px;
     background-color: #F6F4F4;
     margin: 2.5px;
-    background-image: url("../images/bgItem.png");
+    background-image: url("../images/bgItem.webp");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -417,12 +419,12 @@ img {
 }
 
 .firstItem .leftImgAnim {
-    width: 84px;
+    width: 20%;
     bottom: -45px;
 }
 
 .firstItem .rightImgAnim {
-    width: 80px;
+    width: 20%;
     bottom: -99px;
 }
 
@@ -522,7 +524,7 @@ img {
 .footer {
     padding: 50px 100px 30px;
     background-color: #4B2613;
-    background-image: url("../images/footerBg.png");
+    background-image: url("../images/footerBg.webp");
     background-position: center;
 }
 
@@ -593,7 +595,7 @@ img {
 
 .careerBG {
     margin-top: 74px;
-    background-image: url("../images/carrerBG.png");
+    background-image: url("../images/carrerBG.webp");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -608,9 +610,9 @@ img {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(30px);
-    max-width: 1130px;
+    max-width: 67%;
     padding: 100px;
-    background-image: url("../images/CareerInfoBG.png");
+    background-image: url("../images/CareerInfoBG.webp");
 }
 
 .darkCircle {
@@ -621,7 +623,6 @@ img {
 }
 
 .careerBannerText {
-    max-width: 845px;
     line-height: 150%;
     margin: auto;
 }
@@ -674,8 +675,7 @@ img {
 }
 
 .advantage .advantageTitle {
-    max-width: 700px;
-    font-size: 2.85em;
+    font-size: 1.85em;
     margin-bottom: 135px;
 }
 
@@ -876,23 +876,27 @@ input[type='file'].input {
 
 .btn-prev {
     left: 0;
-    background-image: url("../images/Arrow.png");
+}
+
+.btn-prev svg path,
+.btn-next svg path {
+    fill: #F6D119;
+    stroke: #F6D119;
 }
 
 .btn-prev:hover,
 .btn-next:hover {
     background-color: #F6D119;
-    background-image: url("../images/hoverArrow.png");
 }
 
-.btn-prev:hover {
-    background-image: url("../images/hoverArrowPrev.png");
+.btn-prev:hover svg path,
+.btn-next:hover svg path {
+    fill: #4B2613;
+    stroke: #4B2613;
 }
-
 
 .btn-next {
     right: 0;
-    background-image: url("../images/Arrow (1).png");
 }
 
 .fileUpload {
@@ -938,6 +942,11 @@ input[type='file'].input {
     position: relative;
     padding-left: 2.3em;
     cursor: pointer;
+}
+
+.img5 {
+    min-width: 90px;
+    width: 90px;
 }
 
 /* checkbox aspect */
@@ -1078,7 +1087,7 @@ select {
     position: absolute;
     top: 8px;
     left: 6px;
-    background-image: url("../images/checked.png");
+    background-image: url("../images/checked.webp");
     width: 15px;
     height: 10px;
     transition: all .2s;
@@ -1185,4 +1194,12 @@ select {
 .newItemBlock {
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.w-600 {
+    font-weight: 600;
+}
+
+.advantage h2 {
+    margin: 0 230px;
 }
