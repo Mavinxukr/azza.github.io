@@ -3,58 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/career/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/AZZA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Arrow (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/CareerInfoBG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Frame.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/G-Image (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/G-Image (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/G-Image (3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/G-Image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Group.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Image-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Image-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/M.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/N-Image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/N-Image1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/N-Image2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/N-Image3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Rectangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Vector.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bgItem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/career1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/career2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/career3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/carrerBG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/checked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/face.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footerBg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footerIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hoverArrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hoverArrowPrev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mobBanner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/preloader.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/letter/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questionnaire/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questionnaire/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +47,7 @@
       <workItem from="1589440028483" duration="719000" />
       <workItem from="1589441857647" duration="4531000" />
       <workItem from="1589447672966" duration="4010000" />
-      <workItem from="1589453659142" duration="6778000" />
+      <workItem from="1589453659142" duration="8081000" />
     </task>
     <servers />
   </component>

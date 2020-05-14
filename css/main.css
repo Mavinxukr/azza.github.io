@@ -742,9 +742,16 @@ img {
 }
 
 .popupBtnClose {
+    color: #4B2613;
     padding: 10px 20px;
     letter-spacing: 0.1em;
     border: 1px solid #F6D119;
+}
+
+.popupBtnClose:hover {
+    border-color: #4B2613;
+    background: #4B2613;
+    color: #F6D119;
 }
 
 .topBlock {
