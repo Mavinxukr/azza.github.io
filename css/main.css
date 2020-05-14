@@ -403,6 +403,10 @@ span.uppercase {
     transition: all .3s;
 }
 
+.flexItem > span {
+    font-size: 1.15em;
+}
+
 .leftImgAnim {
     position: absolute;
     left: -300px;
