@@ -4,6 +4,16 @@
     }
 }
 
+@media screen and (max-width: 1500px) and (min-width: 1300px){
+    .w-33 {
+        min-width: 500px;
+    }
+
+    .w-17 {
+        min-width: 250px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .searchMap {
         max-width: 100%;

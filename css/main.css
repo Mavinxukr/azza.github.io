@@ -293,7 +293,7 @@ img {
     color: #fff;
     font-family: montserrat, sans-serif;
     font-weight: 600;
-    max-width: 368px;
+    max-width: 400px;
     line-height: 17px;
 }
 
@@ -339,13 +339,14 @@ img {
     box-shadow: 0 4px 50px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     max-width: 1120px;
-    margin: 0 15px;
+    margin: 0;
     width: 100%;
     text-align: center;
 }
 
 .searchMap h2 {
-    margin: 38px 0 15px;
+    margin: 33px 0 15px;
+    letter-spacing: -0.6px;
 }
 
 .searchMap .relative {
@@ -450,11 +451,11 @@ img {
 .flexItem img {
     height: 420px;
     object-fit: contain;
-    margin-bottom: 60px;
+    margin-bottom: 52px;
 }
 
 .line p {
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 .line .uppercase {
@@ -495,7 +496,7 @@ img {
 }
 
 .newItem {
-    width: 23%;
+    width: 22.7%;
     margin: 0 0 20px;
 }
 
@@ -510,11 +511,13 @@ img {
 
 .type {
     margin-bottom: 0;
-    color: #333
+    color: #333;
+    margin-top: 1px;
 }
 
 .newItem-name {
     color: #4B2613;
+    margin-top: 10px;
 }
 
 .white {
@@ -522,7 +525,7 @@ img {
 }
 
 .footer {
-    padding: 50px 100px 30px;
+    padding: 50px 52px 30px 100px;
     background-color: #4B2613;
     background-image: url("../images/footerBg.webp");
     background-position: center;
@@ -1213,4 +1216,8 @@ select {
 
 .mainInfoFooter + .mainInfoFooter {
     margin-bottom: 80px;
+}
+
+.lastBlock {
+    margin-bottom: 50px;
 }
