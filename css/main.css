@@ -133,9 +133,8 @@ img {
     margin-top: 50px;
     margin-bottom: 130px;
 }
-
-span.uppercase {
-    font-size: 0.7em;
+.flexItem span.uppercase  {
+    font-size: 1.15em;
 }
 
 .relative {
@@ -401,10 +400,6 @@ span.uppercase {
 .flexItem:hover .rightImgAnim {
     right: 0;
     transition: all .3s;
-}
-
-.flexItem > span {
-    font-size: 1.15em;
 }
 
 .leftImgAnim {
