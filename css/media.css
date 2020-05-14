@@ -455,6 +455,36 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    .letterContainer {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+
+    .circleFace {
+        width: 150px;
+        height: 150px;
+    }
+
+    .circleFace:before {
+        width: 160px;
+        height: 160px;
+    }
+
+    .mainInfoFooter {
+        text-align: center;
+    }
+
+    .mainInfoFooter div {
+        width: 100%;
+    }
+
+    .letterContainer .formBlock {
+        padding: 40px 50px;
+    }
+}
+
 @media screen and (max-width: 389px) {
     .mobImg {
         width: 600px;
