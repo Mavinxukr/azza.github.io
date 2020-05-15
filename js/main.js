@@ -7,10 +7,10 @@ $( document ).ready(function() {
     };
 
     Pace.on('done', function() {
-        $('.p').delay(300).animate({top: '-30%', opacity: '0'}, 1500, $.bez([0.19,1,0.22,1]));
+        $('.p').delay(300).animate({top: '-30000px', opacity: '0'}, 1500, $.bez([0.19,1,0.22,1]));
 
 
-        $('#preloader').delay(200).animate({top: '-100%'}, 2000, $.bez([0.19,1,0.22,1]));
+        $('#preloader').delay(200).animate({top: '-30000px'}, 2000, $.bez([0.19,1,0.22,1]));
 
         TweenMax.from(".title", 2, {
             delay: 1.8,
