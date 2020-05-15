@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/success/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exprts_dev" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="SvnConfiguration">
@@ -53,7 +55,7 @@
       <workItem from="1589447672966" duration="4010000" />
       <workItem from="1589453659142" duration="13733000" />
       <workItem from="1589520481383" duration="1084000" />
-      <workItem from="1589546395666" duration="1253000" />
+      <workItem from="1589546395666" duration="3767000" />
     </task>
     <servers />
   </component>
@@ -65,13 +67,13 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589459784468" />
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589521562789">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589551472929">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589521562789" />
-    <state x="524" y="201" width="618" height="580" key="find.popup" timestamp="1589546690772">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589551472929" />
+    <state x="524" y="201" width="618" height="580" key="find.popup" timestamp="1589548412031">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="524" y="201" width="618" height="580" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589546690772" />
+    <state x="524" y="201" width="618" height="580" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589548412031" />
   </component>
 </project>

@@ -160,6 +160,7 @@ img {
 
 .activeMenu {
     left: 0;
+    overflow: auto;
 }
 
 .menuList {
@@ -610,6 +611,10 @@ img {
     height: 100vh;
 }
 
+.distributionBG {
+    background-image: url("../images/distribution.webp");
+}
+
 .containerBannerInfo {
     position: absolute;
     top: 50%;
@@ -637,6 +642,10 @@ img {
 .careerBannerText {
     line-height: 150%;
     margin: auto;
+}
+
+.distributionBG .careerBannerText {
+    margin-top: 49px;
 }
 
 .m-100 {
@@ -1230,4 +1239,14 @@ select {
 
 .lastBlock {
     margin-bottom: 50px;
+}
+
+.discriptionText {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageMargin {
+    margin-top: 100px;
 }
