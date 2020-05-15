@@ -384,7 +384,7 @@ img {
     padding: 56px 50px 76px;
     background-color: #F6F4F4;
     margin: 2.5px;
-    background-image: url("../images/bgItem.webp");
+    background-image: url("../images/bgItem-min.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -533,7 +533,7 @@ img {
 .footer {
     padding: 50px 52px 30px 100px;
     background-color: #4B2613;
-    background-image: url("../images/footerBg.webp");
+    background-image: url("../images/footerBg-min.png");
     background-position: center;
 }
 
@@ -604,7 +604,7 @@ img {
 
 .careerBG {
     margin-top: 74px;
-    background-image: url("../images/carrerBG.webp");
+    background-image: url("../images/carrerBG-min.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -612,7 +612,7 @@ img {
 }
 
 .distributionBG {
-    background-image: url("../images/distribution.webp");
+    background-image: url("../images/distribution-min.png");
 }
 
 .containerBannerInfo {
@@ -629,7 +629,7 @@ img {
 
 .careerBannerInfo {
     padding: 60px;
-    background-image: url("../images/CareerInfoBG.webp");
+    background-image: url("../images/CareerInfoBG-min.png");
 }
 
 .darkCircle {
@@ -1120,7 +1120,7 @@ select {
     position: absolute;
     top: 8px;
     left: 6px;
-    background-image: url("../images/checked.webp");
+    background-image: url("../images/checked-min.png");
     width: 15px;
     height: 10px;
     transition: all .2s;

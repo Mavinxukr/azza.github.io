@@ -142,7 +142,7 @@
         left: 20px;
         top: 124px;
         background-position: center;
-        background-image: url("../images/Arrow.webp");
+        background-image: url("../imaRectangle-min.png");
         background-size: auto;
         background-repeat: no-repeat;
         padding: 0;
@@ -264,7 +264,7 @@
         left: 0;
         top: 0;
         transform: translate(0);
-        background-image: url("../images/Rectangle.webp");
+        background-image: url("../images/Rectangle-min.png");
         background-size: cover;
         position: relative;
     }
