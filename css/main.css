@@ -130,7 +130,7 @@ img {
 }
 
 .mt-50 {
-    margin-top: 50px;
+    margin-top: 44px;
     margin-bottom: 130px;
 }
 .flexItem span.uppercase  {
@@ -455,11 +455,12 @@ img {
 }
 
 .line p {
-    margin: 0 30px;
+    margin: 0 12px;
 }
 
 .line .uppercase {
     font-size:  0.6em;
+    letter-spacing: 0.2em;
 }
 
 .left,
@@ -497,7 +498,7 @@ img {
 
 .newItem {
     width: 22.7%;
-    margin: 0 0 20px;
+    margin: 0 0 34px;
 }
 
 .newItem:hover img {
