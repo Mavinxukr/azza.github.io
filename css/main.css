@@ -40,6 +40,10 @@ h2{
     font-size: 1.4em;
 }
 
+.fs-26 {
+    font-size: 1.85em;
+}
+
 .fs-30 {
     font-size: 2.1em;
 }
@@ -887,7 +891,8 @@ input[type='file'].input {
 .flexItemCarousel,
 .carouselBottom,
 .mobSoc,
-.mobImg {
+.mobImg,
+.mobContent {
     display: none;
 }
 
@@ -1249,4 +1254,21 @@ select {
 
 .imageMargin {
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-color {
+    background-color: #F6F4F4;
+    padding: 75px 195px;
+}
+
+.bg-image {
+    background-image: url("../images/background-min.png");
+    width: 100%;
+    display: flex;
+}
+
+.marginText {
+    margin: 128px 0 ;
 }

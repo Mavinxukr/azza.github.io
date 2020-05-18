@@ -241,8 +241,18 @@
     .flexItemCarousel,
     .carouselBottom,
     .mobSoc,
-    .mobImg {
+    .mobImg,
+    .mobContent {
         display: block;
+    }
+
+    .bg-color {
+        padding: 50px 38px;
+    }
+
+    .marginText {
+        margin: 42px 0;
+        font-size: 1.4em;
     }
 
     .careerBG {
