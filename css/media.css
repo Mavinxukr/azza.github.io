@@ -245,6 +245,14 @@
         display: block;
     }
 
+    .btnQuestionnaire {
+        padding: 18.5px 20px;
+    }
+
+    .headerLang span {
+        font-size: 1em;
+    }
+
     .bg-color {
         padding: 50px 38px;
     }

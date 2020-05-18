@@ -619,6 +619,10 @@ img {
     background-image: url("../images/distribution-min.png");
 }
 
+.cakesBG {
+    background-image: url("../images/cake-banner-min.png");
+}
+
 .containerBannerInfo {
     position: absolute;
     top: 50%;
@@ -648,7 +652,8 @@ img {
     margin: auto;
 }
 
-.distributionBG .careerBannerText {
+.distributionBG .careerBannerText,
+.cakesBG .careerBannerText{
     margin-top: 49px;
 }
 
@@ -1271,4 +1276,12 @@ select {
 
 .marginText {
     margin: 128px 0 ;
+}
+
+.cakesBlock {
+    padding: 0 34px;
+}
+
+.cakesItem {
+    padding: 5px;
 }
