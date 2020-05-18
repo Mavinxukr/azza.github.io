@@ -6,6 +6,7 @@
     .careerItemText {
         padding-left: 10px;
         padding-right: 10px;
+        width: 78%;
     }
 }
 
@@ -234,13 +235,6 @@
     }
 }
 
-@media screen and (max-width: 990px) and (min-width: 768px) {
-    .careerItemText {
-        max-width: 200px;
-    }
-}
-
-
 @media screen and (max-width: 768px) {
     #mapMob,
     .flexItemCarousel,
@@ -360,10 +354,6 @@
     .img5 {
         min-width: 72px;
         width: 72px;
-    }
-
-    .careerItemText {
-        max-width: 240px;
     }
 
     .activeMenu > .flex {
