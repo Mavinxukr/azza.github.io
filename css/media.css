@@ -2,6 +2,11 @@
     .careerBannerInfo {
         max-width: 700px;
     }
+
+    .careerItemText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 1500px) and (min-width: 1300px){
