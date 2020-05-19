@@ -1374,3 +1374,35 @@ select {
     margin-top: 90px;
     margin-bottom: 111px;
 }
+
+.fermazzaBlock {
+    margin: 0 40px 50px;
+}
+
+.fermazzaInfoBlock {
+    margin-left: 118px;
+    text-align: left;
+    max-width: 30%;
+}
+
+.fermazzaInfoBlock h3 {
+    text-align: left;
+}
+
+.fermazzaBlock img {
+    max-width: 51.5%;
+}
+
+.fermazzaInfoBlock p {
+    line-height: 150%;
+    margin: 20px 0 0;
+    font-size: 1.14em;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-reverse .fermazzaInfoBlock {
+    margin: 0 120px 0 0;
+}
