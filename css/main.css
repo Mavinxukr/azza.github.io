@@ -1276,6 +1276,8 @@ select {
 
 .marginText {
     margin: 128px 0 ;
+    width: 100%;
+    line-height: 120%;
 }
 
 .cakesBlock {
@@ -1283,5 +1285,86 @@ select {
 }
 
 .cakesItem {
-    padding: 5px;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cakesItem:hover img {
+    transform: scale(1.2);
+    transition: all .3s;
+}
+
+.small {
+    min-width: 32.6%;
+}
+
+.big {
+    min-width: 66%;
+}
+
+.cakesItem-text {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    opacity: 0.85;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s;
+    z-index: 10;
+}
+
+.cakesItem:hover .cakesItem-text {
+    background: #F4EAB9;
+    transition: all .3s;
+}
+
+.cakesItem-text * {
+    text-align: center;
+}
+
+.cakesInfoItems {
+    margin: 100px 75px;
+}
+
+.marginCakes {
+    flex-wrap: wrap;
+}
+
+.marginCakes p {
+    width: 100%;
+    line-height: 120%;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.marginCakes p + p {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    line-height: 150%;
+}
+
+
+.cake-bg-color {
+    padding-left: 159px;
+    padding-right: 159px;
+}
+
+.cake-bg-color .bg-image {
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 72%;
+}
+
+.excursion {
+    margin-top: 90px;
+    margin-bottom: 111px;
 }

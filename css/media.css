@@ -521,16 +521,6 @@
     }
 }
 
-@media screen and (max-width: 389px) {
-    .mobImg {
-        width: 600px;
-        height: 500px;
-        text-align: center;
-        left: -50%;
-        object-fit: cover;
-        margin-left: -211px;
-    }
-}
 
 @media screen and (max-width: 460px) {
     .bannerTitle {
