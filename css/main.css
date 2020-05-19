@@ -32,6 +32,10 @@ h2{
     font-size: 1.07em;
 }
 
+.fs-16 {
+    font-size: 1.14em;
+}
+
 .fs-18 {
     font-size: 1.28em;
 }
@@ -235,6 +239,20 @@ img {
 .mobSoc svg path {
     fill: #4B2613;
     stroke: #4B2613;
+}
+
+.menuLogo svg line,
+.menuLogo svg path {
+    fill: #4B2613;
+    stroke: #4B2613;
+}
+
+.menuLogo:hover svg line,
+.menuLogo:hover svg path,
+.headerLogo:hover svg line,
+.headerLogo:hover svg path {
+    fill: #F6D119;
+    stroke: #F6D119;
 }
 
 .sticky-header .headerLogo {
@@ -711,6 +729,7 @@ img {
 
 .advantage .advantageTitle {
     font-size: 1.85em;
+    text-align: left;
     margin-bottom: 135px;
 }
 
@@ -1375,6 +1394,10 @@ select {
     margin-bottom: 111px;
 }
 
+.excursion h3 {
+    margin-bottom: 50px;
+}
+
 .fermazzaBlock {
     margin: 0 40px 50px;
 }
@@ -1405,4 +1428,58 @@ select {
 
 .flex-reverse .fermazzaInfoBlock {
     margin: 0 120px 0 0;
+}
+
+.fermazzaColumn {
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.fermazzaColumn .flex {
+    width: 100%;
+}
+
+.fermazzaColumn .flexItem {
+    background-image: none;
+}
+
+.bg-fermazza {
+    background-image: url("../images/bg-fermazza-min.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.padding-flexItem {
+    padding: 50px 65px 45px;
+}
+
+.padding-flexItem img {
+    margin-bottom: 0;
+    max-height: 217px;
+}
+
+.firstBlock .padding-flexItem:first-child img {
+    max-height: 350px;
+}
+
+.firstBlock .padding-flexItem:nth-child(2) img {
+    max-height: 241px;
+}
+
+.firstBlock .padding-flexItem:nth-child(3) img,
+.secondBlock .padding-flexItem:first-child img {
+    max-height: 218px;
+}
+
+.fermazzaCircle {
+    margin: 23px 0;
+}
+
+.fermazzaMB {
+    margin-bottom: 100px;
+    margin-bottom: 100px;
 }

@@ -250,6 +250,43 @@
         padding: 18.5px 20px;
     }
 
+    .fermazzaBlock {
+        margin: 0 20px 100px;
+        flex-direction: column-reverse;
+    }
+
+    .textmobMargin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .fermazzaBlock img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .padding-flexItem {
+        padding: 30px 17px 20px;
+        background-image: none;
+        width: 100%;
+    }
+
+    .padding-flexItem img {
+        max-height: 142px;
+    }
+
+    .mobContent.fermazzaColumn .flex {
+        flex-wrap: nowrap;
+    }
+
+    .fermazzaColumn {
+        margin: 50px 0;
+    }
+    .fermazzaInfoBlock {
+        margin: 0;
+        max-width: 100%;
+    }
+
     .discriptionText {
         max-width: 88%;
     }
