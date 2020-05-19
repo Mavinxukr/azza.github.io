@@ -633,6 +633,10 @@ img {
     height: 100vh;
 }
 
+.storesBG {
+    background-image: url("../images/storesBanner-min.png");
+}
+
 .distributionBG {
     background-image: url("../images/distribution-min.png");
 }
@@ -676,7 +680,8 @@ img {
 
 .distributionBG .careerBannerText,
 .cakesBG .careerBannerText,
-.fermazzaBG .careerBannerText {
+.fermazzaBG .careerBannerText,
+.storesBG .careerBannerText{
     margin-top: 49px;
 }
 
