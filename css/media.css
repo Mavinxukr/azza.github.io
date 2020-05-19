@@ -241,12 +241,47 @@
     .carouselBottom,
     .mobSoc,
     .mobImg,
-    .mobContent {
+    .mobContent,
+    .centerSlider {
         display: block;
     }
 
     .btnQuestionnaire {
         padding: 18.5px 20px;
+    }
+
+    .discriptionText {
+        max-width: 88%;
+    }
+
+    .marginCakes p {
+        margin-top: 0;
+    }
+
+    .bg-image {
+        background-size: cover;
+    }
+
+    .marginCakes p + p {
+        margin-bottom: 0;
+    }
+
+    .cakesItem-text {
+        min-height: 100px;
+    }
+
+    .cakesBlock {
+        padding: 0 20px;
+    }
+
+    .cakesInfoItems {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 50px;
+    }
+
+    .cakesBlock img {
+        min-height: 335px;
     }
 
     .headerLang span {
@@ -255,6 +290,14 @@
 
     .bg-color {
         padding: 50px 38px;
+    }
+
+    .cake-bg-color {
+        padding: 70px 18px;
+    }
+
+    .cake-bg-color .bg-image {
+        max-width: 83%;
     }
 
     .marginText {

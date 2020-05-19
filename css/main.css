@@ -897,6 +897,7 @@ input[type='file'].input {
 .carouselBottom,
 .mobSoc,
 .mobImg,
+.centerSlider,
 .mobContent {
     display: none;
 }
@@ -1305,7 +1306,7 @@ select {
 
 .cakesItem-text {
     width: 250px;
-    height: 250px;
+    min-height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
