@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fermazza/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cakes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/career/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/career/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questionnaire/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questionnaire/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/success/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/success/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,10 @@
       <workItem from="1589778934104" duration="12996000" />
       <workItem from="1589800507321" duration="15000" />
       <workItem from="1589802442380" duration="1914000" />
-      <workItem from="1589866023338" duration="2290000" />
+      <workItem from="1589866023338" duration="2588000" />
+      <workItem from="1589870886275" duration="1990000" />
+      <workItem from="1589873912074" duration="10000" />
+      <workItem from="1589874955176" duration="1113000" />
     </task>
     <servers />
   </component>
@@ -77,14 +84,14 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589459784468" />
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589804905254">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589873919996">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589804905254" />
-    <state x="524" y="201" width="618" height="580" key="find.popup" timestamp="1589783637010">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589873919996" />
+    <state x="524" y="201" width="618" height="580" key="find.popup" timestamp="1589875531265">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="524" y="201" width="618" height="580" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589783637010" />
+    <state x="524" y="201" width="618" height="580" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589875531265" />
     <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1589783592589">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

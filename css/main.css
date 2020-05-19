@@ -623,6 +623,10 @@ img {
     background-image: url("../images/cake-banner-min.png");
 }
 
+.fermazzaBG {
+    background-image: url("../images/fermazzaBanner-min.png");
+}
+
 .containerBannerInfo {
     position: absolute;
     top: 50%;
@@ -653,7 +657,8 @@ img {
 }
 
 .distributionBG .careerBannerText,
-.cakesBG .careerBannerText{
+.cakesBG .careerBannerText,
+.fermazzaBG .careerBannerText {
     margin-top: 49px;
 }
 
