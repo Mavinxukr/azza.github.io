@@ -246,6 +246,10 @@
         display: block;
     }
 
+    .imageMargin img.mobContent + img.mobContent {
+        margin-top: -1px;
+    }
+
     .btnQuestionnaire {
         padding: 18.5px 20px;
     }
@@ -489,7 +493,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 22px;
     }
 
     .header .flex + .flex {
