@@ -1567,6 +1567,7 @@ select {
     max-width: 160px;
 }
 
-.statistics svg path {
+.statistics svg path,
+.sticky-header .btnMenu svg path{
     fill: #4B2613;
 }
