@@ -240,13 +240,11 @@ img {
 .mobSoc svg line,
 .mobSoc svg path {
     fill: #4B2613;
-    stroke: #4B2613;
 }
 
 .menuLogo svg line,
 .menuLogo svg path {
     fill: #4B2613;
-    stroke: #4B2613;
 }
 
 .menuLogo:hover svg line,
@@ -254,7 +252,6 @@ img {
 .headerLogo:hover svg line,
 .headerLogo:hover svg path {
     fill: #F6D119;
-    stroke: #F6D119;
 }
 
 .sticky-header .headerLogo {
