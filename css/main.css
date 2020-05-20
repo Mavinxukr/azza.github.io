@@ -406,7 +406,7 @@ img {
     padding: 56px 50px 76px;
     background-color: #F6F4F4;
     margin: 2.5px;
-    background-image: url("../images/bgItem-min.png");
+    background-image: url("../images/bg-item-min.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -540,7 +540,7 @@ img {
 .type {
     margin-bottom: 0;
     color: #333;
-    margin-top: 1px;
+    margin-top: 8px;
 }
 
 .newItem-name {
@@ -557,6 +557,7 @@ img {
     background-color: #4B2613;
     background-image: url("../images/footerBg-min.png");
     background-position: center;
+    background-size: contain;
 }
 
 .footerLogo {
@@ -855,6 +856,10 @@ img {
 .inputBlock {
     margin-top: 30px;
     align-items: center;
+}
+
+.inputBlock.m-0 {
+    margin-top: 0;
 }
 
 .inputBlock + .inputBlock {
