@@ -641,6 +641,10 @@ img {
     background-image: url("../images/distribution-min.png");
 }
 
+.cakeHouseBG {
+    background-image: url("../images/cakeHouseBanner-min.png");
+}
+
 .cakesBG {
     background-image: url("../images/cake-banner-min.png");
 }
@@ -681,8 +685,14 @@ img {
 .distributionBG .careerBannerText,
 .cakesBG .careerBannerText,
 .fermazzaBG .careerBannerText,
-.storesBG .careerBannerText{
+.storesBG .careerBannerText,
+.cakeHouseBG .careerBannerText {
     margin-top: 49px;
+}
+
+.cakeHouseBG .careerBannerInfo {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .m-100 {
@@ -1534,4 +1544,29 @@ select {
 
 .storeSlider {
     margin: 100px 0;
+}
+
+.fermazzaBlock .line p {
+    margin: 0;
+}
+
+.fermazzaBlock .line a {
+    margin: 20px 10px;
+}
+
+.statistics {
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.statistics div {
+    text-align: center;
+}
+
+.statistics p {
+    max-width: 160px;
+}
+
+.statistics svg path {
+    fill: #4B2613;
 }

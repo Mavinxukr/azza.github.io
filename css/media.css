@@ -246,6 +246,39 @@
         display: block;
     }
 
+    .fermazzaBlock .line {
+        justify-content: center;
+    }
+
+    .statistics .no-wrap {
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: space-between;
+    }
+
+    .statistics {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .statistics p {
+        font-size: 1.14em;
+        min-width: 160px;
+    }
+
+    .statistics .no-wrap.center {
+        justify-content: center;
+    }
+
+    .flex-reverse .fermazzaInfoBlock {
+        margin: 0;
+    }
+
+    .cakeHouseBG .careerBannerInfo {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .storeInfoBlock span {
         max-width: 100%;
     }
