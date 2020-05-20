@@ -1568,8 +1568,9 @@ select {
 }
 
 .statistics svg path,
-.sticky-header .btnMenu svg path{
+.sticky-header .btnMenu svg line {
     fill: #4B2613;
+    stroke: #4B2613;
 }
 
 select {
