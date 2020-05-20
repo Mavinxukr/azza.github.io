@@ -97,10 +97,12 @@ button {
     background: transparent;
     border: none;
     cursor: pointer;
+    transition: all .3s;
 }
 
 a:hover, button:hover {
     cursor: pointer;
+    transition: all .3s;
 }
 
 li {
@@ -1491,5 +1493,48 @@ select {
 
 .fermazzaMB {
     margin-bottom: 100px;
-    margin-bottom: 100px;
+}
+
+.storeMap {
+    width: 47.25%;
+}
+
+.storeInfoBlock {
+    display: flex;
+    flex-direction: column;
+    max-width: 38%;
+    margin-left: 137px;
+}
+
+.storeInfoBlock h1 {
+    text-align: left;
+}
+
+.storeInfoBlock span {
+    line-height: 150%;
+    max-width: 75%;
+}
+
+.storeInfoBlock p {
+    margin: 30px 0 20px;
+}
+
+.storeBtn {
+    margin: 30px auto 50px 0;
+    letter-spacing: 0.1em;
+    color: #4B2613;
+    font-weight: 600;
+    font-size: .85em;
+    background: #F6D119;
+    padding: 9px 25px;
+    text-transform: uppercase;
+}
+
+.storeBtn:hover {
+    background: #4B2613;
+    color: #F6D119;
+}
+
+.storeSlider {
+    margin: 100px 0;
 }

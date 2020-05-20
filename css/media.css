@@ -246,8 +246,28 @@
         display: block;
     }
 
+    .storeInfoBlock span {
+        max-width: 100%;
+    }
+
+    .storeMap {
+        width: 100%;
+    }
+
+    .storeBtn {
+        padding: 19px 25px;
+    }
+
     .searchMap input {
         text-align: center;
+    }
+
+    .storeInfoBlock h1 {
+        font-size: 1.8em;
+    }
+
+    .storeInfoBlock p {
+        font-size: 1em;
     }
 
     .footerLogoHeight {
@@ -607,6 +627,25 @@
         backdrop-filter: blur(30px);
         padding: 30px;
         width: 330px;
+    }
+
+    .storeBlock {
+        flex-direction: column-reverse;
+        margin: 75px 0 0;
+    }
+
+    .storeInfoBlock {
+        max-width: 100%;
+        margin: 0 20px;
+    }
+
+    .storeSlider .textCenter {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .storeSlider {
+        margin: 50px 0;
     }
 }
 
