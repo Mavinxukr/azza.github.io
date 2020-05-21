@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shakarbura/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nationalcuisine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nationalcuisine/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,10 @@
       <workItem from="1589972807801" duration="6134000" />
       <workItem from="1589981557490" duration="723000" />
       <workItem from="1589987884999" duration="72000" />
-      <workItem from="1590047496510" duration="7253000" />
+      <workItem from="1590047496510" duration="8259000" />
+      <workItem from="1590057438941" duration="36000" />
+      <workItem from="1590070488606" duration="327000" />
+      <workItem from="1590071180291" duration="622000" />
     </task>
     <servers />
   </component>
@@ -85,17 +88,28 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589459784468" />
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589898956793">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590057472638">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589898956793" />
-    <state x="524" y="201" width="618" height="594" key="find.popup" timestamp="1589981645497">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1590057472638" />
+    <state x="524" y="201" width="618" height="594" key="find.popup" timestamp="1590056180464">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="524" y="201" width="618" height="594" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589981645497" />
+    <state x="524" y="201" width="618" height="594" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1590056180464" />
     <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1589783592589">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="496" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589783592589" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/shakarbura/index.html</url>
+          <line>152</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

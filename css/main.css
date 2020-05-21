@@ -1528,7 +1528,7 @@ select {
 
 .storeInfoBlock span {
     line-height: 150%;
-    max-width: 75%;
+    max-width: 73%;
 }
 
 .storeInfoBlock p {
@@ -1656,4 +1656,12 @@ select {
 .activeTab,
 .cuisineTab a:hover {
     color: #F6D119;
+}
+
+.storeMap .carousel .btn-prev {
+    left: 20px;
+}
+
+.storeMap .carousel .btn-next {
+    right: 20px;
 }
