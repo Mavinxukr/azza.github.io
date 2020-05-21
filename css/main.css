@@ -1325,6 +1325,7 @@ select {
     background-image: url("../images/background-min.png");
     width: 100%;
     display: flex;
+    background-size: contain;
 }
 
 .marginText {
