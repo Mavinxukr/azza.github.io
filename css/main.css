@@ -1585,3 +1585,9 @@ select {
     background-position-x: 97%;
     background-position-y: 19px;
 }
+
+@supports (-ms-ime-align:auto) {
+    .advantageItem {
+        margin: 0 auto 100px;
+    }
+}
