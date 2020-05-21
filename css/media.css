@@ -246,8 +246,26 @@
         display: block;
     }
 
+    .cuisineBG .careerBannerInfo {
+        padding-bottom: 0;
+    }
+
     .fermazzaBlock .line {
         justify-content: center;
+    }
+
+    .m-100 {
+        margin: 50px 0;
+    }
+
+    .cuisineTitle {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cuisineTab {
+        flex-direction: column;
     }
 
     .statistics .no-wrap {
