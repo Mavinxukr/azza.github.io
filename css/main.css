@@ -674,7 +674,7 @@ img {
 }
 
 .careerBannerInfo {
-    padding: 63px;
+    padding: 58px 63px;
     background-image: url("../images/CareerInfoBG-min.png");
     background-size: contain;
 }
