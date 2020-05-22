@@ -1676,3 +1676,9 @@ select {
 .storeMap .carousel .btn-next {
     right: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .w-33, .w-17 {
+        max-height: 500px;
+    }
+}
