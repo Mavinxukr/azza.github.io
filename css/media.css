@@ -437,7 +437,8 @@
     }
 
     .cake-bg-color .bg-image {
-        max-width: 82%;
+        max-width: 300px;
+        height: 300px;
     }
 
     .marginText {
