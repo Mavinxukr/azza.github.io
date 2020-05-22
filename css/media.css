@@ -441,6 +441,10 @@
         height: 300px;
     }
 
+    .cake-bg-color .fs-20 {
+        font-size: 1.4em;
+    }
+
     .marginText {
         margin: 42px 0;
         font-size: 1.4em;
