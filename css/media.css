@@ -18,6 +18,14 @@
     .w-17 {
         min-width: 250px;
     }
+
+    .careerBannerInfo {
+        max-height: 229px;
+    }
+
+    .fermazzaBG .careerBannerInfo {
+        max-height: 100%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -246,6 +254,10 @@
         display: block;
     }
 
+    .excursion h3 {
+        margin: 20px 20px 50px;
+    }
+
     .cuisineBG .careerBannerInfo {
         padding-bottom: 0;
     }
@@ -429,7 +441,7 @@
     }
 
     .bg-color {
-        padding: 50px 38px;
+        padding: 50px 40px;
     }
 
     .cake-bg-color {
@@ -474,10 +486,12 @@
         position: relative;
     }
 
-    .careerBannerInfo {
+    .careerBannerInfo,
+    .fermazzaBG .careerBannerInfo {
         padding: 0;
         background: none;
         margin: auto;
+        max-height: 100%;
     }
 
     .advantageItem {

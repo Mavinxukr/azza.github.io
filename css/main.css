@@ -682,9 +682,17 @@ img {
 }
 
 .careerBannerInfo {
-    padding: 58px 63px;
+    padding: 55px 63px;
     background-image: url("../images/CareerInfoBG-min.png");
     background-size: contain;
+}
+
+.fermazzaBG .careerBannerInfo {
+    padding: 51px 63px;
+}
+
+.mainColor a {
+    text-decoration: underline;
 }
 
 .darkCircle {
@@ -1326,7 +1334,7 @@ select {
 
 .bg-color {
     background-color: #F6F4F4;
-    padding: 75px 195px;
+    padding: 75px 189px;
 }
 
 .bg-image {
@@ -1423,7 +1431,7 @@ select {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 72%;
+    max-width: 73%;
 }
 
 .excursion {
@@ -1585,10 +1593,13 @@ select {
     max-width: 160px;
 }
 
-.statistics svg path,
 .sticky-header .btnMenu svg line {
     fill: #4B2613;
     stroke: #4B2613;
+}
+
+.statistics svg path {
+    fill: #4B2613;
 }
 
 select {
