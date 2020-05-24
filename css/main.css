@@ -538,6 +538,18 @@ img {
 
 .scaleImage {
     overflow: hidden;
+    position: relative;
+}
+
+.scaleImage:before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #fff;
+    z-index: 8;
 }
 
 .type {
@@ -635,6 +647,10 @@ img {
     background-position: top;
     background-size: cover;
     height: 100vh;
+}
+
+.alcoholBG {
+    background-image: url("../images/alcoholBanner-min.png");
 }
 
 .teaBG {
@@ -1457,8 +1473,17 @@ select {
     text-align: left;
 }
 
-.fermazzaBlock img {
+.fermazzaBlock img,
+.fermazzaBlock .alcoImg{
     max-width: 51.5%;
+}
+
+.alcoImg {
+    position: relative;
+}
+
+.fermazzaBlock .alcoImg img {
+    max-width: 100%;
 }
 
 .fermazzaInfoBlock p {
@@ -1696,4 +1721,74 @@ select {
     .w-33, .w-17 {
         max-height: 500px;
     }
+}
+
+.tabs__caption {
+    padding: 0;
+    display: flex;
+}
+
+.tabs__caption li {
+    padding: 10px 20px;
+    border: 1px solid #F6F4F4;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tabs__caption li.active {
+    color: #F6D119;
+    border-color: #F6D119;
+}
+
+.tabs__content {
+    display: none;
+}
+
+.tabs__content.active {
+    display: block;
+}
+
+.tabs__content.active .grey2 {
+    margin-bottom: 40px;
+}
+
+.alcoholBlock {
+    align-items: flex-start;
+}
+
+.alcoholBlock .fermazzaInfoBlock {
+    margin-top: 50px;
+    min-width: 30%;
+    width: 100%;
+}
+
+.alcoImg:hover .alcoTitle {
+    background-color: #F4EAB9;
+}
+
+.alcoTitle {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 240px;
+    height: 240px;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.alcoBG {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    width: 330px;
+    height: 330px;
 }

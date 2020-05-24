@@ -65,6 +65,38 @@
     .success p {
         width: auto;
     }
+
+    .tabs__caption {
+        flex-direction: column;
+        height: 41px;
+        overflow: hidden;
+        border: 1px solid #4B2613;
+        box-sizing: border-box;
+        border-radius: 50px;
+        background-image: url('../images/select.svg');
+        background-position-x: 97%;
+        background-position-y: 19px;
+        background-repeat: no-repeat;
+    }
+
+    .tabs__caption.open {
+        height: 100%;
+        border-radius: 25px;
+    }
+
+    .tabs__caption li,
+    .tabs__caption li.active {
+        border: none;
+        color: #4B2613;
+    }
+
+    .tabs__caption li {
+        order: 1;
+    }
+
+    .tabs__caption li.active {
+        order: 0;
+    }
 }
 
 @media screen and (max-width: 1005px) {
@@ -370,12 +402,17 @@
         flex-direction: column-reverse;
     }
 
+    .alcoholBlock {
+        flex-direction: column;
+    }
+
     .textmobMargin {
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    .fermazzaBlock img {
+    .fermazzaBlock img,
+    .fermazzaBlock .alcoImg {
         max-width: 100%;
         margin-top: 20px;
     }
