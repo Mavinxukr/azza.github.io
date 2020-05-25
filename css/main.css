@@ -1818,3 +1818,55 @@ select {
 .gallerySlider .slick-track {
     height: 75vh;
 }
+
+.flexGallery {
+    justify-content: space-between;
+    margin: 0 4px;
+}
+
+.flexGallery div {
+    margin-bottom: 5px;
+}
+
+.gallerySmall {
+    width: 39%;
+}
+
+.galleryBig {
+    width: 60%;
+}
+
+.navPopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    height: 100vh;
+    background: #F7F7F7;
+}
+
+.navPopup .prevPage {
+    top: 16px;
+    left: 16px;
+}
+
+.navPopup .slick-slide img {
+    height: 80vh;
+}
+
+.navPopup.open {
+    display: block;
+}
+
+.navPopup .slider-nav {
+    margin-top: 82px;
+}
+
+.navPopup .btn-prev {
+    left: 6px;
+}
+
+.navPopup .btn-next {
+    right: 6px;
+}

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="" />
+    <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +87,11 @@
       <workItem from="1590321631729" duration="8350000" />
       <workItem from="1590384166494" duration="46000" />
       <workItem from="1590384608594" duration="4143000" />
-      <workItem from="1590388790639" duration="6781000" />
+      <workItem from="1590388790639" duration="7797000" />
+      <workItem from="1590398328676" duration="11000" />
+      <workItem from="1590398757618" duration="226000" />
+      <workItem from="1590399162275" duration="1203000" />
+      <workItem from="1590400956935" duration="4406000" />
     </task>
     <servers />
   </component>
@@ -94,10 +103,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="566" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1589459784468" />
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590384210344">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590400693966">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1590384210344" />
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1590400693966" />
     <state x="524" y="201" width="618" height="622" key="find.popup" timestamp="1590393789832">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

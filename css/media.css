@@ -290,6 +290,10 @@
         display: block;
     }
 
+    .flexGallery div {
+        height: 350px;
+    }
+
     .topBlockGallery {
         height: auto;
         margin-bottom: 75px;
@@ -785,6 +789,10 @@
         width: 96%;
     }
 
+    .flexGallery div {
+        height: 262px;
+    }
+
     .circleFace {
         width: 150px;
         height: 150px;
@@ -813,6 +821,10 @@
     .bannerTitle {
         width: 263px;
         padding: 15px;
+    }
+
+    .flexGallery div {
+        height: 150px;
     }
 
     .menu {
