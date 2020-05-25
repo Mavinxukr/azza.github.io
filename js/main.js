@@ -126,10 +126,6 @@ $( document ).ready(function() {
             '</svg>\n</button>'
     });
 
-    $("body").children().each(function() {
-        $(this).html($(this).html().replace(/&#8232;/g," "));
-    });
-
     document.getElementById("uploadBtn").onchange = function () {
         document.getElementById("uploadFile").value = this.value.replace("C:\\fakepath\\", "");
     };
