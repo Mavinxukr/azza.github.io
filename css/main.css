@@ -642,47 +642,10 @@ img {
 
 .careerBG {
     margin-top: 74px;
-    background-image: url("../images/carrerBG-min.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     height: 100vh;
-}
-
-.alcoholBG {
-    background-image: url("../images/alcoholBanner-min.png");
-}
-
-.teaBG {
-    background-image: url("../images/teaBanner-min.png");
-}
-
-.chocolateBG {
-    background-image: url("../images/chocolateBanner-min.png");
-}
-
-.cuisineBG {
-    background-image: url("../images/cuisineBanner-min.png");
-}
-
-.storesBG {
-    background-image: url("../images/storesBanner-min.png");
-}
-
-.distributionBG {
-    background-image: url("../images/distribution-min.png");
-}
-
-.cakeHouseBG {
-    background-image: url("../images/cakeHouseBanner-min.png");
-}
-
-.cakesBG {
-    background-image: url("../images/cake-banner-min.png");
-}
-
-.fermazzaBG {
-    background-image: url("../images/fermazzaBanner-min.png");
 }
 
 .containerBannerInfo {

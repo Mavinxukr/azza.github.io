@@ -286,8 +286,8 @@
         display: block;
     }
 
-    .cakesBG {
-        background-image: none;
+    .careerBG {
+        background-image: none!important;
     }
 
     .excursion h3 {

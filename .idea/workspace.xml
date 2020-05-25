@@ -3,6 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cakes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cakes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/career/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/career/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocolate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chocolate/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fermazza/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fermazza/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nationalcuisine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nationalcuisine/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ourstores/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ourstores/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tea/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exprts_dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="SvnConfiguration">
@@ -83,6 +95,7 @@
       <workItem from="1590151853371" duration="150000" />
       <workItem from="1590321631729" duration="8350000" />
       <workItem from="1590384166494" duration="46000" />
+      <workItem from="1590384608594" duration="774000" />
     </task>
     <servers />
   </component>
