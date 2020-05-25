@@ -594,5 +594,14 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="../js/aos.js"></script>
 <script src="../js/main.js"></script>
+<script>
+    window.onload = function() { document.body.innerHTML = document.body.innerHTML.replace(/\u2028/g, ''); }
+
+    $(document).ready(function() {
+        $("body").children().each(function() {
+            $(this).html($(this).html().replace(/&#8232;/g," "));
+        });
+    });
+</script>
 </body>
 </html>
