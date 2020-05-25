@@ -1571,6 +1571,7 @@ select {
 .statistics {
     margin-top: 100px;
     justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .statistics div {
@@ -1585,7 +1586,6 @@ select {
 .statistics p + p {
     margin-top: 0;
 }
-
 
 .sticky-header .btnMenu svg line {
     fill: #4B2613;
