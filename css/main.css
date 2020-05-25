@@ -1579,7 +1579,13 @@ select {
 
 .statistics p {
     max-width: 160px;
+    margin-bottom: 0;
 }
+
+.statistics p + p {
+    margin-top: 0;
+}
+
 
 .sticky-header .btnMenu svg line {
     fill: #4B2613;
