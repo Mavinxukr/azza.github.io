@@ -544,10 +544,10 @@ img {
 .scaleImage:before {
     position: absolute;
     content: '';
-    bottom: 0;
+    bottom: -3px;
     left: 0;
     right: 0;
-    height: 5px;
+    height: 8px;
     background: #fff;
     z-index: 8;
 }
@@ -1754,4 +1754,62 @@ select {
     z-index: 9;
     width: 330px;
     height: 330px;
+}
+
+.topBlockGallery,
+.topBlockGallery .prevPage {
+    height: 50px;
+}
+
+.gallerySlider .slick-slide {
+    margin: 0 2.5px;
+    opacity: 0.5;
+}
+
+.gallerySlider {
+    margin-bottom: 80px;
+}
+
+.gallerySlider .slick-slide.slick-active {
+    opacity: 1;
+}
+
+.gallerySlider .btn-prev {
+    left: 11%;
+}
+
+.gallerySlider .btn-next {
+    right: 11%;
+}
+
+.gallerySlider .slick-dots {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+}
+
+.gallerySlider .slick-dots button {
+    display: none;
+}
+
+.gallerySlider .slick-dots li {
+    width: 30px;
+    height: 4px;
+    background: #E0E0E0;
+    margin: 0 2.5px;
+    cursor: pointer;
+}
+
+.gallerySlider .slick-dots li:hover,
+.gallerySlider .slick-dots li.slick-active {
+    background: #F6D119;
+}
+
+.gallerySlider .slick-track {
+    height: 75vh;
 }

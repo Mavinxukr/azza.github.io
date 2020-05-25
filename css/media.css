@@ -194,6 +194,10 @@
         padding: 0;
     }
 
+    .topBlockGallery .prevPage {
+        top: 25px;
+    }
+
     .mobWidth {
         width: 100%;
     }
@@ -284,6 +288,19 @@
     .mobContent,
     .centerSlider {
         display: block;
+    }
+
+    .topBlockGallery {
+        height: auto;
+        margin-bottom: 75px;
+    }
+
+    .topBlockGallery h1 {
+        margin: 50px 0;
+    }
+
+    .topBlockGallery .prevPage {
+        top: 100px;
     }
 
     .careerBG {
