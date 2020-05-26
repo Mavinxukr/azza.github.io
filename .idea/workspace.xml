@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tea/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cuisine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cuisine/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <workItem from="1590399162275" duration="1203000" />
       <workItem from="1590400956935" duration="6969000" />
       <workItem from="1590409649579" duration="2910000" />
-      <workItem from="1590471532969" duration="358000" />
+      <workItem from="1590471532969" duration="1101000" />
     </task>
     <servers />
   </component>
@@ -124,7 +122,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/cuisine/index.html</url>
-          <line>152</line>
+          <line>160</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
