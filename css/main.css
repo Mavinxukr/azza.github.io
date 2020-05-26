@@ -654,8 +654,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.7);
     max-width: 67%;
     padding: 40px;
 }
@@ -1611,18 +1610,8 @@ select {
         margin: 0 auto 100px!important;
     }
 
-    .containerBannerInfo {
-        background-color: rgba(255, 255, 255, 0.7);
-    }
-
     .statistics div {
         margin: auto;
-    }
-}
-
-@-moz-document url-prefix() {
-    .containerBannerInfo {
-        background-color: rgba(255, 255, 255, 0.7);
     }
 }
 
