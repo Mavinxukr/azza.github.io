@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/aos.css">
     <link rel="stylesheet" href="../css/pace.css">
+    <link rel="stylesheet" href="../css/select.css">
     <link rel="stylesheet" href="../css/media.css">
     <title>AZZA</title>
 </head>
@@ -546,12 +547,17 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
 <script src="../js/aos.js"></script>
 <script src="../js/main.js"></script>
 <script>
     document.getElementById("uploadBtn").onchange = function () {
         document.getElementById("uploadFile").value = this.value.replace("C:\\fakepath\\", "");
     };
+
+    $(document).ready(function() {
+        $('select').niceSelect();
+    });
 </script>
 </body>
 </html>

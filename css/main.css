@@ -868,6 +868,7 @@ img {
 .inputBlock {
     margin-top: 30px;
     align-items: center;
+    overflow: visible!important;
 }
 
 .inputBlock.m-0 {
@@ -1133,6 +1134,7 @@ select {
     align-items: inherit!important;
     position: relative;
     min-height: 48px;
+    overflow: visible;
 }
 
 .moreSelect .btn-more {
