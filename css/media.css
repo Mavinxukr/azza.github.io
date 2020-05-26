@@ -290,10 +290,6 @@
         display: block;
     }
 
-    .mailDecor {
-        text-decoration: underline!important;
-    }
-
     .flexGallery div {
         height: 350px;
     }

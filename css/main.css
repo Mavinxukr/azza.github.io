@@ -1877,3 +1877,7 @@ select {
 .navPopup .btn-next {
     right: 6px;
 }
+
+.mailDecor {
+    text-decoration: underline!important;
+}
