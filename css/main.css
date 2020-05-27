@@ -541,13 +541,13 @@ img {
     position: relative;
 }
 
-.scaleImage:before {
+.scaleImage + .w-600:before {
     position: absolute;
     content: '';
-    bottom: -5px;
+    top: -14px;
     left: 0;
     right: 0;
-    height: 10px;
+    height: 15px;
     background: #fff;
     z-index: 8;
 }
@@ -1280,6 +1280,7 @@ select {
 
 .w-600 {
     font-weight: 600;
+    position: relative;
 }
 
 .advantage h2 {
