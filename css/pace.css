@@ -57,3 +57,7 @@
 .pace-done .p {
     opacity: 0;
 }
+
+.pace-done #preloader {
+    z-index: -1;
+}
