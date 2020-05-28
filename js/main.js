@@ -7,17 +7,9 @@ $( document ).ready(function() {
     };
 
     Pace.on('done', function() {
-        $('.p').delay(600).animate({top: '-3000px', opacity: '0'}, 1500, $.bez([0.19,1,0.22,1]));
+        $('.p').delay(500).animate({ zIndex: -1, opacity: '0'}, 500);
 
-
-        $('#preloader').delay(800).animate({top: '-3000px', opacity: '0'}, 2000, $.bez([0.19,1,0.22,1]));
-
-        TweenMax.from(".title", 2, {
-            delay: 1.8,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-        })
+        $('#preloader').delay(500).animate({zIndex: -1, opacity: '0'}, 500);
     });
 
 
