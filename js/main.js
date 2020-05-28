@@ -7,9 +7,9 @@ $( document ).ready(function() {
     };
 
     Pace.on('done', function() {
-        $('.p').delay(500).animate({ zIndex: -1, opacity: '0'}, 500);
+        $('.p').delay(2000).animate({ zIndex: -1, opacity: '0'}, 2000);
 
-        $('#preloader').delay(500).animate({zIndex: -1, opacity: '0'}, 500);
+        $('#preloader').delay(2000).animate({zIndex: -1, opacity: '0'}, 2000);
     });
 
 
