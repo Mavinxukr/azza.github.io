@@ -1886,3 +1886,24 @@ select {
 .footer .mailDecor:hover {
     color: #fff;
 }
+
+.IMAGES {
+    position: relative;
+    max-width: 51%;
+}
+
+.IMAGES img{
+    max-width: 100%;
+}
+
+.IMAGES .alcoTitle {
+    padding: 15px;
+}
+
+.IMAGES .alcoTitle img {
+    margin-top: 0!important;
+}
+
+.alcoTitle img {
+    object-fit: contain;
+}

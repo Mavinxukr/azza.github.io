@@ -290,6 +290,15 @@
         display: block;
     }
 
+    .IMAGES {
+        max-width: 100%;
+    }
+
+    .IMAGES .alcoTitle {
+        width: 150px;
+        height: 150px;
+    }
+
     .flexGallery div {
         height: 350px;
     }
