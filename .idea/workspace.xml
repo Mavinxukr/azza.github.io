@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kolgotki.net" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -109,6 +109,7 @@
       <workItem from="1591863399101" duration="135000" />
       <workItem from="1591863535734" duration="3523000" />
       <workItem from="1591869237320" duration="55000" />
+      <workItem from="1591871630198" duration="169000" />
     </task>
     <servers />
   </component>

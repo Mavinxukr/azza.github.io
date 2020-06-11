@@ -743,6 +743,10 @@
         height: 150px;
     }
 
+    .teaLogo .last-logo {
+        max-width: 120px;
+    }
+
     #map,
     .descBlock {
         display: none;
