@@ -41,6 +41,10 @@ $( document ).ready(function() {
         $(".popup").addClass("show");
     });
 
+    $(".headerLang button").click(() => {
+        $(".other-languages ").toggleClass("show");
+    });
+
     $(document).keyup(function(e) {
         if (e.keyCode === 27) $(".popup").removeClass("show");
     });

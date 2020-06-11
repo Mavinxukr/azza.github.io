@@ -3,8 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="8a852f17-6fa7-44b6-be6f-2a95d0596dde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alcohol/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alcohol/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cakes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cakes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/career/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/career/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chocolate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chocolate/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cuisine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cuisine/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distribution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/distribution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fermazza/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fermazza/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nationalcuisine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nationalcuisine/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onestore/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/onestore/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ourstores/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ourstores/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questionnaire/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questionnaire/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/success/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/success/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tea/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +128,7 @@
       <workItem from="1591701963112" duration="1432000" />
       <workItem from="1591853847367" duration="3836000" />
       <workItem from="1591863399101" duration="135000" />
-      <workItem from="1591863535734" duration="316000" />
+      <workItem from="1591863535734" duration="2813000" />
     </task>
     <servers />
   </component>
@@ -133,6 +149,10 @@
     </state>
     <state x="524" y="201" width="618" height="622" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1591858177439" />
     <state x="524" y="201" width="618" height="594" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1590329623940" />
+    <state x="497" y="208" key="run.anything.popup" timestamp="1591865252002">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="497" y="208" key="run.anything.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1591865252002" />
     <state x="496" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1589783592589">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -143,7 +163,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/cuisine/index.html</url>
-          <line>174</line>
+          <line>193</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

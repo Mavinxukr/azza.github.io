@@ -663,13 +663,42 @@
     }
 
     .btnMenu,
-    .headerLang{
+    .headerLang button{
         background: #F6D119;
         border: none;
         width: 50px;
         height: 50px;
+        color: #4B2613;
         border-radius: 50%;
         position: relative;
+    }
+
+    .menu .headerLang button {
+        margin-left: 0;
+    }
+
+    .menu .headerLang {
+        display: block;
+    }
+
+    .menu .other-languages.show {
+        flex-direction: column;
+        right: 0;
+    }
+
+    .other-languages {
+        right: -40px;
+        top: 50px;
+    }
+
+    .other-languages button {
+        margin-top: 10px;
+        margin-left: 0;
+        background: white;
+    }
+
+    .other-languages button:hover {
+        background: #F6D119;
     }
 
     .btnMenu.close img {
@@ -695,6 +724,12 @@
 
     .header .flex + .flex {
         display: none;
+    }
+
+    .chocoLogo img,
+    .teaLogo img {
+        max-width: 120px;
+        max-height: 80px;
     }
 
     .header .flex {

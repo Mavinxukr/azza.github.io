@@ -165,7 +165,7 @@ img {
     top: 0;
     left: -1000px;
     width: 256px;
-    background: #fff;
+    background: #F7F7F7;
     bottom: 0;
     z-index: 100;
     padding: 18px 32px;
@@ -266,22 +266,13 @@ img {
     border: none;
 }
 
-.sticky-header .headerLang span {
-    color: #4B2613
+.sticky-header .headerLang button {
+    color: #4B2613;
+    border: none;
 }
 
 .menuLogo {
     margin: 0 40px 0 46px;
-}
-
-.headerLang {
-    margin-left: 40px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .btnMenu {
@@ -1920,4 +1911,46 @@ select {
 
 .teaLogo .last-logo {
     max-width: 170px;
+}
+
+.headerLang {
+    position: relative;
+}
+
+.headerLang button {
+    color: #fff;
+    margin-left: 40px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.hover:hover {
+    color: #4B2613;
+    background: #F6D119;
+    border-color: #F6D119;
+}
+
+.other-languages {
+    display: none;
+    position: absolute;
+    right: -80px;
+    align-items: center;
+    top: 0;
+}
+
+.other-languages button {
+    margin-left: 10px;
+}
+
+.other-languages.show {
+    display: flex;
+}
+
+.menu .headerLang {
+    display: none;
 }
