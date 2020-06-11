@@ -729,7 +729,8 @@
     .chocoLogo img,
     .teaLogo img {
         max-width: 120px;
-        max-height: 80px;
+        max-height: initial;
+        height: auto;
     }
 
     .header .flex {
